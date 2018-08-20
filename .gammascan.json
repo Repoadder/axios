@@ -1,0 +1,25 @@
+{
+	"gammaAccess": {
+		"url": "http://192.168.2.11:3000",
+		"userName": "chandrashekhar.bhosale@acellere.com",
+		"password": "admin1234"
+	},
+	"repositories": [{
+		"repository": {
+			"uid": "090a58de81663292e35fc9833e66fa58",
+			"projectName": "RJ_Axios_JS",
+			"sources": {
+				"baseDir": "$WORKSPACE"
+			}
+		},
+		"dataDir": "/opt/gamma/gamma_data",
+		"modules": {
+			"codeissues": [
+						"name": "jshint"
+					},
+					{
+						"name": "eslint"
+					}]
+		}
+	}]
+}
