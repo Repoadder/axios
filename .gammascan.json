@@ -15,7 +15,8 @@
 		"dataDir": "/opt/gamma/gamma_data",
 		"modules": {
 			"codeissues": [
-						"name": "jshint"
+					{
+					"name": "jshint"
 					},
 					{
 						"name": "eslint"
